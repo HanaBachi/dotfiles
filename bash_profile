@@ -9,3 +9,5 @@ if [ -e $HOME/.bashrc ]; then
 fi
 
 set -o vi
+
+export PATH=$HOME/.julia/bin:$PATH
